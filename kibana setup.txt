@@ -1,0 +1,35 @@
+master = 10.0.2.16
+
+
+minion = 10.0.2.15
+
+
+minion ip seetten handmatig in filebeat
+
+filebeat config salt:\\filebeatconfig.sh
+
+
+v6:
+
+master = 10.0.2.15
+
+minion = 10.0.2.17
+
+v7
+master = 10.0.2.19
+
+minion = 10.0.2.18
+
+
+mkdir salt in /srv/
+copy chnageconfig to /srv/salt/
+
+change master ip to right ip
+
+localhost:5601
+
+systemctl restart filebeat.service
+
+minion ip setten in bashscript.sh
+
+
